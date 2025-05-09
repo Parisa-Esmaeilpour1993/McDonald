@@ -118,7 +118,7 @@ body {
 
 .cart {
   display: grid;
-  grid-template-rows: 100px 3fr 40px 40px;
+  grid-template-rows: 100px 1fr 40px 40px;
   background-color: #00c8c5;
   padding: 20px;
   border-radius: 8px;
@@ -225,7 +225,7 @@ body {
 .close {
   position: fixed;
   left: 1rem;
-  top: 1rem; 
+  top: 1rem;
   padding: 0 0 1px 1px;
   cursor: pointer;
   background-color: red;
@@ -250,18 +250,17 @@ table {
   border-collapse: collapse;
 }
 
-.tableData{
+.tableData {
   padding: 12px;
   text-align: center;
-  border: 1px solid
+  border: 1px solid;
 }
 
-.tableHeader{
-  padding:12px;
+.tableHeader {
+  padding: 12px;
   text-align: center;
-  border: 1px solid
+  border: 1px solid;
 }
-
 
 .summary-table {
   width: 40%;
@@ -285,7 +284,7 @@ table {
   border: 1px solid #ddd;
 }
 
-.finalConfirm{
+.finalConfirm {
   display: flex;
   flex-direction: column;
 }
@@ -303,7 +302,7 @@ table {
   cursor: pointer;
 }
 
-.thanks-footer{
+.thanks-footer {
   width: 100%;
   align-self: center;
   font-size: 8px;
@@ -359,5 +358,7 @@ table {
     width: 100%;
     justify-self: center;
   }
+  .total-price {
+    margin-top: 8px;
+  }
 }
-
