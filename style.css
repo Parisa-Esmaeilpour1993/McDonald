@@ -343,7 +343,7 @@ table {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .container {
     grid-template-columns: 1fr;
     gap: 8px;
@@ -373,5 +373,8 @@ table {
     flex-direction: column;
     gap: 12px;
     align-items: center;
+  }
+  .menu {
+    grid-template-columns: 1fr;
   }
 }
