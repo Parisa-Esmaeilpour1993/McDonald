@@ -362,3 +362,16 @@ table {
     margin-top: 8px;
   }
 }
+
+@media (max-width: 425px) {
+  .quantity-price-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .section-description-img {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+}
