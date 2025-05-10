@@ -363,7 +363,7 @@ table {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 575px) {
   .quantity-price-container {
     flex-direction: column;
     gap: 8px;
